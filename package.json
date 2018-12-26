@@ -1,0 +1,28 @@
+{
+  "name": "similar-listings-recommendations_proxy-server",
+  "version": "1.0.0",
+  "description": "This is a simple proxy server for a recommendation component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy-dev": "nodemon ./proxy/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Elysium/Similar-Listings-Recommendations_Proxy-Server.git"
+  },
+  "author": "Muhammad Mosaad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Elysium/Similar-Listings-Recommendations_Proxy-Server/issues"
+  },
+  "homepage": "https://github.com/Team-Elysium/Similar-Listings-Recommendations_Proxy-Server#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}
