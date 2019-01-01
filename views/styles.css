@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+}
+
+.Header {
+  background: #032765;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  /* line-height: 1.6; */
+  /* height: 50px; */
+}
+
+a {
+  /* color: #0080c6; */
+  text-decoration: none;
+  /* z-index: 10; */
+}
+
+.Header a {
+  /* text-decoration: none; */
+}
+
+.Header a:hover {
+  color: #0080c6;
+}
+
+.Header .Header-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.Logo {
+  line-height: 50px;
+}
+
+.Logo-image {
+  vertical-align: middle;
+}
+
+.Header .Header-nav {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  vertical-align: top;
+}
+
+.HeaderNav {
+  margin: 0 -15px 0 0;
+  position: relative;
+}
+
+.Header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.HeaderNav .HeaderNav-li {
+  display: inline-block;
+  line-height: 1.1;
+  list-style: none;
+}
+
+.HeaderNav .HeaderNav-li > a,
+.HeaderNav .HeaderNav-li > span {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+.HeaderNavItem-popup.HeaderNavItem-popup--wide {
+  width: 319px;
+}
+
+.HeaderNavItem-popup {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: none;
+  position: absolute;
+  right: -10px;
+  text-align: left;
+  top: 50px;
+  width: 220px;
+  z-index: 10001;
+}
+
+.HeaderNavItem-popup ul {
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0 20px;
+  padding: 7px 0 11px;
+}
+
+.HeaderNavItem-popup ul > li {
+  margin: 0 -15px;
+  position: relative;
+}
+
+.HeaderNavItemPopupRow .HeaderNavItemPopupRow-link {
+  display: table-cell;
+  padding: 0 15px;
+  vertical-align: middle;
+  width: 230px;
+}
+
+.HeaderNavItem-popup a {
+  color: #1a1f2c;
+  display: block;
+  line-height: 1.3;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.HeaderNavItemPopupRow .HeaderNavItemPopupRow-btn {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.HeaderNavItemPopupRow .HeaderNavItemPopupRow-btn a {
+  background: #e6e6e6;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+@media (min-width: 980px) {
+  .Container {
+    width: 980px;
+  }
+}
+
+.MainNavBlock {
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  height: 50px;
+  position: relative;
+}
+
+/* .Container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+} */
+
+.MainNav {
+  display: inline-block;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0 0 0 -18px;
+  padding: 0;
+}
+
+.MainNavItem {
+  display: inline-block;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 18px;
+}
+
+.MainNavItem .MainNavItem-text {
+  color: #1a1f2c;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.MainNavBlock .MainNavBlock-search {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+  width: 300px;
+}
+
+.Search-input {
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px 40px 5px 18px;
+  width: 100%;
+}
+
+/* .Search-button {
+  content: url(https://cdn-assets-s3.streeteasy.com/assets/svg/icons/search-66dc512a99d8cd14890551f772557e52f78f48a5057f3bf91cfc358a1ff69fe1.svg);
+  height: 20px;
+  width: 23px;
+} */
+
+@media (min-width: 980px) {
+  Container {
+    width: 980px;
+  }
+}
+
+@media (min-width: 660px) {
+  Container {
+    width: 748px;
+  }
+}
+
+@media (min-width: 980px) {
+  .Search-button {
+    content: url(https://cdn-assets-s3.streeteasy.com/assets/svg/icons/search-66dc512a99d8cd14890551f772557e52f78f48a5057f3bf91cfc358a1ff69fe1.svg);
+    /* background: transparent; */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 20px;
+    padding: 0;
+    position: absolute;
+    right: 11px;
+    top: 5px;
+    width: 23px;
+  }
+}
+
+.ColoredBox {
+  background: #272d39;
+}
+
+.ColoredBox-content {
+  margin: 0 auto;
+  width: 984px;
+}
+
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 56px 0 0;
+}
