@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.set("view engine", "ejs");
 
 app.use("/:id", express.static(path.join(__dirname, "../views")));
-app.use("/", router);
+app.use("/api", proxy({ target: "http://localhost:3011/" }));
+// app.use("/", router);
 
 app.listen(3000, () => console.log("Proxy Server Working!!!"));
