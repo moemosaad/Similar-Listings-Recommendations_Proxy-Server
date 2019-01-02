@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"
+    ></script>
     <link href="/partials/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="http://localhost:3011/:id/styles.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
 
-  <body class="container">
+  <body>
     <!-- <header><% include ./partials/header %></header> -->
     <!-- <script src="./landing.ejs"></script> -->
     <div class="Header">
-      <div class="Container">
+      <div class="Landing-container">
         <div class="Header-logo">
           <a href="" class="Logo">
             <img
@@ -69,7 +95,7 @@
     </div>
 
     <div class="MainNavBlock">
-      <div class="Container">
+      <div class="Landing-container">
         <ul class="MainNav">
           <li class="MainNavItem"><a class="MainNavItem-text">Sales</a></li>
           <li class="MainNavItem"><a class="MainNavItem-text">Rentals</a></li>
@@ -91,21 +117,19 @@
       </div>
     </div>
     <div class="Content">
-      <div class="Container">
+      <div class="Landing-container">
         <div class="Components-row Component">
           <article class="Image-Gallery Component">
-            <script src="localhost:3011/9"></script>
+            <!-- <script src="localhost:3011/9"></script> -->
           </article>
           <article class="Details Component">
-            <script src="localhost:3011/9"></script>
+            <!-- <script src="localhost:3011/9"></script> -->
           </article>
           <article class="Description Component">
-            <script src="localhost:3011/9"></script>
+            <!-- <script src="localhost:3011/9"></script> -->
           </article>
         </div>
-        <div class="Similar-listings Component">
-          <script src="localhost:3011/9"></script>
-        </div>
+        <div class="Similar-listings Component" id="similar"></div>
       </div>
     </div>
 
@@ -220,6 +244,21 @@
       </div>
     </div>
 
-    <!-- <footer><% include ./partials/footer %></footer> -->
+    <!-- <script
+      type="text/javascript"
+      src="http://localhost:3011/:id/bundle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://localhost:3011/:id/bundle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://localhost:3011/:id/bundle.js"
+    ></script> -->
+    <script
+      type="text/javascript"
+      src="http://localhost:3011/:id/bundle.js"
+    ></script>
   </body>
 </html>
