@@ -23,7 +23,7 @@ a {
   vertical-align: top;
 }
 
-.Container {
+.Landing-container {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -62,8 +62,8 @@ a {
   list-style: none;
 }
 
-.HeaderNav .HeaderNav-li>a,
-.HeaderNav .HeaderNav-li>span {
+.HeaderNav .HeaderNav-li > a,
+.HeaderNav .HeaderNav-li > span {
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -96,7 +96,7 @@ a {
   padding: 7px 0 11px;
 }
 
-.HeaderNavItem-popup ul>li {
+.HeaderNavItem-popup ul > li {
   margin: 0 -15px;
   position: relative;
 }
@@ -131,12 +131,6 @@ a {
   margin-right: 10px;
   padding: 5px 10px;
   text-decoration: none;
-}
-
-@media (min-width: 980px) {
-  .Container {
-    width: 980px;
-  }
 }
 
 .MainNavBlock {
@@ -191,39 +185,6 @@ a {
   height: 30px;
   padding: 5px 40px 5px 18px;
   width: 100%;
-}
-
-/* .Search-button {
-  content: url(https://cdn-assets-s3.streeteasy.com/assets/svg/icons/search-66dc512a99d8cd14890551f772557e52f78f48a5057f3bf91cfc358a1ff69fe1.svg);
-  height: 20px;
-  width: 23px;
-} */
-
-@media (min-width: 980px) {
-  Container {
-    width: 980px;
-  }
-}
-
-@media (min-width: 660px) {
-  Container {
-    width: 748px;
-  }
-}
-
-@media (min-width: 980px) {
-  .Search-button {
-    background: url(https://cdn-assets-s3.streeteasy.com/assets/svg/icons/search-66dc512a99d8cd14890551f772557e52f78f48a5057f3bf91cfc358a1ff69fe1.svg) no-repeat;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    height: 20px;
-    padding: 0;
-    position: absolute;
-    right: 11px;
-    top: 5px;
-    width: 23px;
-  }
 }
 
 .ColoredBox {
@@ -364,6 +325,31 @@ ul {
 
 .Similar-listings {
   height: 500px;
+}
+
+@media (min-width: 660px) {
+  .Landing-container {
+    width: 748px;
+  }
+}
+
+@media (min-width: 980px) {
+  .Landing-container {
+    width: 980px;
+  }
+  .Search-button {
+    background: url(https://cdn-assets-s3.streeteasy.com/assets/svg/icons/search-66dc512a99d8cd14890551f772557e52f78f48a5057f3bf91cfc358a1ff69fe1.svg)
+      no-repeat;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 20px;
+    padding: 0;
+    position: absolute;
+    right: 11px;
+    top: 5px;
+    width: 23px;
+  }
 }
 
 @media (min-width: 980px) {
