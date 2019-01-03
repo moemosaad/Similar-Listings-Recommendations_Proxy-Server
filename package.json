@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Team-Elysium/Similar-Listings-Recommendations_Proxy-Server#readme",
   "devDependencies": {
+    "morgan": "^1.9.1",
     "nodemon": "^1.18.9"
   },
   "dependencies": {
