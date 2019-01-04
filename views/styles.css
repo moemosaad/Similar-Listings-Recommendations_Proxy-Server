@@ -187,6 +187,45 @@ a {
   width: 100%;
 }
 
+.Component {
+  border: 3px solid black;
+}
+
+.Components-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Component > .article {
+  display: block;
+}
+
+.Image-Gallery {
+  float: left;
+  padding-right: 14px;
+  height: 500px;
+}
+
+.Details {
+  float: right;
+  height: 1715px;
+}
+
+.Description {
+  padding-right: 14px;
+  height: 1715px;
+  margin-top: 0px;
+}
+
+.Seperator {
+  border-top: 1px solid #e6e6e6;
+  margin: 0;
+}
+
+.Similar-listings {
+  height: 500px;
+}
+
 .ColoredBox {
   background: #272d39;
 }
@@ -216,11 +255,6 @@ a {
 
 .Footer-navigation {
   padding: 0 0 24px;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
 }
 
 .Footer-text {
@@ -290,43 +324,6 @@ ul {
   padding: 0 5px;
 }
 
-.Component {
-  border: 3px solid black;
-}
-
-.Components-row {
-  margin-left: 0;
-  margin-right: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.article {
-  display: block;
-}
-
-.Image-Gallery {
-  float: left;
-  padding-right: 14px;
-  height: 500px;
-}
-
-.Details {
-  float: right;
-  height: 850px;
-}
-
-.Description {
-  float: left;
-  padding-right: 14px;
-  height: 1715px;
-  margin-top: 0px;
-}
-
-.Similar-listings {
-  height: 500px;
-}
-
 @media (min-width: 660px) {
   .Landing-container {
     width: 748px;
@@ -360,12 +357,12 @@ ul {
 
 @media (min-width: 980px) {
   .Details {
-    width: 37%;
+    width: 40%;
   }
 }
 
 @media (min-width: 980px) {
   .Description {
-    width: 50%;
+    width: 60%;
   }
 }
