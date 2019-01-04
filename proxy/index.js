@@ -13,6 +13,9 @@ app.use(
   "/api/carousel",
   proxy({ target: "http://ec2-18-223-116-251.us-east-2.compute.amazonaws.com/" })
 );
-app.use("/api/similarlistings", proxy({ target: "http://localhost:3011/" }));
+app.use(
+  "/api/similarlistings",
+  proxy({ target: "http://ec2-54-174-166-132.compute-1.amazonaws.com/" })
+);
 
 app.listen(3000, () => console.log("Proxy Server Working!!!"));
