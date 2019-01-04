@@ -203,18 +203,19 @@ a {
 .Image-Gallery {
   float: left;
   padding-right: 14px;
-  height: 500px;
+  height: 100%;
+  padding-bottom: 20px;
 }
 
 .Details {
   float: right;
-  height: 1715px;
+  height: 100%;
 }
 
 .Description {
   padding-right: 14px;
-  height: 1715px;
   margin-top: 0px;
+  height: 100%;
 }
 
 .Seperator {
@@ -223,7 +224,7 @@ a {
 }
 
 .Similar-listings {
-  height: 500px;
+  height: 100%;
 }
 
 .ColoredBox {
