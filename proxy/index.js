@@ -14,7 +14,7 @@ app.use(
   proxy({ target: "http://ec2-18-223-116-251.us-east-2.compute.amazonaws.com/" })
 );
 app.use(
-  "/streetBreezy/api/description",
+  "/api/description",
   proxy({
     target: "http://ec2-18-218-251-40.us-east-2.compute.amazonaws.com:3009/"
   })
