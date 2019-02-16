@@ -42,12 +42,10 @@ To start web service
 
 * React
 * NodeJs/Express
-* PostgreSQL
 
 #### Features
 
 * AWS EC2 (Optional)
-* AWS S3 (Optional)
 
 ## Authors
 
