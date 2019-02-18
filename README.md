@@ -3,7 +3,7 @@ This application proxy server for hosting several components of a single page ap
 
 ## Motivation
 
-This project was developed to gain a fundemental understanding of service-oriented architecture.
+This project was developed to gain a fundamental understanding of service-oriented architecture.
 
 ### Prerequisites
 
